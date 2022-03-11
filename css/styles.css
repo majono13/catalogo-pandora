@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+    --cor0: #fce8f2;
+    --cor1: #fbc7d1;
+    --cor2: #f874a3;
+    --cor3: #c54a75;
+    --cor4: #60202c;
+
+    --font-title: "Prata", serif;
+    --font-text: "PT Sans", sans-serif;
+}
+
+body {
+    background-color: #252525;
+    color: white;
+    font-family: var(--font-text);
+}
+
+/***** NAVBAR*******/
+
+/*logo*/
+
+#navbar {
+    background-color: var(--cor2);
+}
+
+.navbar-brand {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+/*FORM*/
+#navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+}
+#navbar-items {
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+
+#search-form {
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.158);
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+#search-form input {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#search-form input::placeholder {
+    color: white;
+}
+
+#search-form input:focus {
+    box-shadow: none;
+}
+
+.btn {
+    background-color: var(--cor3);
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: var(--cor1);
+    background-color: var(--cor4);
+    transition: 0.5s;
+}
+
+.bi-search {
+    color: var(--cor4);
+    font-size: 1.2em;
+}
+
+/*BOTTOM NAVBAR*/
+
+#bottom-navbar-container {
+    background-color: var(--cor3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
+    /* margin-bottom: 40px; */
+}
+
+#bottom-navbar-container a {
+    color: white;
+    font-family: var(--font-text);
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425);
+}
+
+#bottom-navbar-container a:hover {
+    font-size: 1.3em;
+    transition: 0.3s;
+}
+
+#bottom-navbar-container .container {
+    justify-content: flex-end; /*coloca o menu de hambúrger no canto direito da tela*/
+}
+
+.navbar-toggler {
+    font-size: 1.5em;
+}
+
+/*********** SLIDER**********/
+
+#slider {
+    width: 100%;
+}
+
+#slider img {
+    width: 100%;
+}
+.container,
+.row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: var(--cor4);
+}
+
+/*************** PRODUTOS***********/
+
+#container-products {
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+/*H1 DOS CARDS*/
+#container-products h1 {
+    font-family: var(--font-title);
+    color: var(--cor1);
+    font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*H1 DOS TÍTULOS GERAIS*/
+
+#container-products .title {
+    font-size: 1.8em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#container-products h2 {
+    font-family: var(--font-title);
+    color: var(--cor1);
+    font-size: 1.2em;
+}
+
+#container-products .btn {
+    margin-bottom: 20px;
+}
+
+/*ANIMAÇÃO DA IMAGEM*/
+.img-animation {
+    overflow: hidden;
+}
+.img-animation img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.img-animation:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*CARDS*/
+
+#container-products .card {
+    margin: auto;
+    background-color: #252525;
+    margin-top: 30px;
+    color: var(--cor2);
+    font-family: var(--font-title);
+}
+
+#container-products .card:hover {
+    border: 1px solid var(--cor1);
+}
+
+#container-products .card .btn {
+    font-family: var(--font-text);
+}
+
+/* CONFIGURAÇÕES DA IMAGEM FORA DO CARD - SIGNATURE*/
+
+#signature {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+hr {
+    color: var(--cor1);
+    max-width: 100%;
+}
+
+/********* FOOTER ******/
+hr {
+    color: var(--cor1);
+}
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+footer p {
+    margin-top: 50px;
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--cor0);
+    font-family: var(--font-title);
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.5em;
+}
+
+footer a:hover {
+    color: var(--cor0);
+}
+
+@media (min-width: 768px) {
+    /******NAVBAR******/
+
+    /*LOGO e FORM*/
+
+    .navbar-brand {
+        text-align: left;
+        padding-left: 5rem;
+    }
+
+    #navbar-items {
+        width: 80%;
+        display: flex;
+    }
+
+    #search-form {
+        min-width: 60%;
+    }
+
+    /******SLIDER******/
+
+    .carousel {
+        width: 80%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    /******* PRODUTOS ********/
+
+    #container-products h1 {
+        font-size: 1.8em;
+    }
+
+    #container-products h2 {
+        font-family: var(--font-title);
+        color: var(--cor1);
+        font-size: 1.4em;
+    }
+
+    #container-products .btn {
+        width: 110px;
+    }
+
+    #container-products .card {
+        margin-top: 60px;
+    }
+
+    /*H1 DOS TÍTULOS GERAIS*/
+
+    #container-products .title {
+        font-size: 2.5em;
+    }
+}
+
+/*Configuração prévia do bootstrap que estava impedindo o container ocupar 100% da tela em mobile*/
+@media (min-width: 576px) {
+    .container {
+        max-width: none;
+    }
+}

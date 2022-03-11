@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Pandora Jóias</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg py-4" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"> <img src="img/logo.png" alt="Pandora Jóias logo"></a>
+            <div id="navbar-items">
+                <div></div>
+                <form class="d-flex" id="search-form">
+                    <i class="bi bi-search"></i>
+                    <input type="search" class="form-control me-2" placeholder="Pesquisar..." aria-label="search">
+                    <button class="btn" type="submit">
+                        Pesquisar
+
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+        <!-- BOTTOM NAVBAR -->
+    <nav class="navbar navbar-expand-lg p-2" id="bottom-navbar-container">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar" aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <ul class="navbar-nav mb-2 mb-lg-0 navbar-collapse" id="bottom-navbar">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Braceletes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Anéis</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Brincos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Colares</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+     <!-- FIM NAVBAR -->
+
+     <!-- SLIDER -->
+
+        <div class="container" id="banners-container">
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- slider 1 -->
+                    <div class="carousel-item active" id="carouselExampleControls">
+                       <a href="https://www.pandorajoias.com.br/pandora-marvel" target="_blank">
+                           <picture>
+                               <source media="(max-width:768px)" srcset="img/slider-1-mobile.jpg">
+                               <img src="img/slider-1.jpg" alt="Iniciativa Marvel x Pandora" class="d-block w-100 img-fluid">
+                            </picture>
+                       </a>
+                    </div>
+
+                    <!-- slider 2 -->
+                    <div class="carousel-item">
+                        <a href="https://www.pandorajoias.com.br/pandora-club" target="_blank">
+                            <picture>
+                                <source media="(max-width:768px )" srcset="img/slider-2-mobile.jpg">
+                                <img src="img/slider-2.jpg" alt="Iniciativa Marvel x Pandora" class="d-block w-100 img-fluid">
+                            </picture>
+                        </a> 
+                     </div>
+
+                      <!-- slider 3 -->
+                    <div class="carousel-item">
+                        <a href="https://www.pandorajoias.com.br/colecao-pandora-signature" target="_blank">
+                            <picture>
+                                <source media="(max-width:768px )" srcset="img/slider-3-mobile.jpg">
+                                <img src="img/slider-3.jpg" alt="Iniciativa Marvel x Pandora" class="d-block w-100 img-fluid">
+                            </picture>
+                        </a>
+                     </div>
+                </div>
+
+                <!-- Button slider -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- FIM DO SLIDER -->
+
+        <!-- SESSÃO DE PRODUTOS -->
+
+                <main>
+                    <div class="container" id="container-products">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4">
+                                <h1>
+                                    AVENGERS
+                                </h1>
+
+                                <h2>
+                                    Os maiores super heróis eternizados
+                                </h2>
+
+                                <a href="https://www.pandorajoias.com.br/pandra-marvel" target="_blank"><button class="btn">Ver no site</button></a>
+
+                            </div>
+
+                            <div class="col-12 col-md-8 img-animation">
+                                <img src="img/index-img-1.jpg" alt="Pormoção Marvel x Pandora" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- CARD 1 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-1-img-1.png" class="card-img-top" alt="Foto Charm Escudo do Capitão América">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Escudo do Capitão América</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-pendente-escudo-capitao-america_os-vingadores-marvel/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                </div>
+
+                                    <!-- CARD 2 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-1-img-2.png" class="card-img-top" alt="Foto Charm Pantera Negra">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Pantera Negra</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-pantera-negra_os-vingadores-da-marvel/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                </div>
+
+                                <!-- CARD 3 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-1-img-3.png" class="card-img-top" alt="Foto Charm Viúva Negra">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Viúva Negra</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-pendente-viuva-negra_os-vingadores-marvel/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                </div>
+
+                                <!-- CARD 4 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-1-img-4.png" class="card-img-top" alt="Foto Charm Manopla do Infinito">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Manopla do Infinito</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-pendente-manopla-do-infinito_os-vingadores-marvel/p" class="btn" target="_blank">Ver no site</a>
+                                    </div> 
+                                </div>
+
+                                <!-- CARD 5 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-1-img-5.png" class="card-img-top" alt="Foto Charm Pedras do Infinito">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Pedras do Infinito</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-pendente-pedras-do-infinito_os-vingadores-marvel/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>  
+                                </div>
+
+                                <!-- CARD 6 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-1-img-6.png" class="card-img-top" alt="Foto Charm Homem de Ferro">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Homem de Ferro</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-homem-de-ferro_os-vingadores-marvel/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <h1 class="title">
+                            #BESTPANDORA
+                        </h1>
+
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- CARD 1 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-2-img-1.png" class="card-img-top" alt="Foto Anel You & Me">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Anel Pandora You & Me</h5>
+                                      <a href="https://www.pandorajoias.com.br/anel-you---me--voce---eu-/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                </div>
+
+                                    <!-- CARD 2 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-2-img-2.png" class="card-img-top" alt="Foto Bracelete Pandora Fecho de Coração">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Bracelete Fecho de Coração</h5>
+                                      <a href="https://www.pandorajoias.com.br/bracelete-pandora-com-fecho-de-coracao/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                </div>
+
+                                <!-- CARD 3 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-2-img-3.png" class="card-img-top" alt="Foto Anel Solitário Real">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Anel Pandora Solitário Real</h5>
+                                      <a href="https://www.pandorajoias.com.br/anel-solitario-real/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                </div>
+
+                                <!-- CARD 4 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-2-img-4.png" class="card-img-top" alt="Foto Bracelete Pandora Reflexions">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Bracelete Pandora Reflexions</h5>
+                                      <a href="https://www.pandorajoias.com.br/bracelete-pandora-reflexions/p" class="btn" target="_blank">Ver no site</a>
+                                    </div> 
+                                </div>
+
+                                <!-- CARD 5 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-2-img-5.png" class="card-img-top" alt="Foto Brincos Petit Pomo de Ouro">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Brincos Petit Pomo de Ouro</h5>
+                                      <a href="https://www.pandorajoias.com.br/brincos-petit-pomo-de-ouro_-harry-potter/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>  
+                                </div>
+
+                                <!-- CARD 6 -->
+                                <div class="card col-6 col-md-4">
+                                    <img src="img/card-2-img-6.png" class="card-img-top" alt="Foto Charm Tartáruga Marinha">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Charm Tartáruga Marinha</h5>
+                                      <a href="https://www.pandorajoias.com.br/charm-pendente-tartaruga-marinha_pandora-ocean/p" class="btn" target="_blank">Ver no site</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="container" id="signature">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4">
+
+                                    <h1>
+                                        PANDORA SIGNATURE
+                                    </h1>
+
+                                    <h2>
+                                        Seu estilo é sua assinatura
+                                    </h2>
+                                    <a href="https://www.pandorajoias.com.br/colecao-pandora-signature" target="_blank"><button class="btn">Ver no site</button></a>
+                                </div>
+                                <div class="col-12 col-md-8 img-animation">
+                                    <img src="img/index-img-2.jpg" alt="PANDORA SIGNATURE" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </main>
+
+                <!-- FIM DA SESSÃO DE PRODUTOS -->
+
+
+                <!-- FOOTER -->
+                <div class="container">
+                    <footer>
+                        <p>
+                            Acompanhe a Pandora
+                        </p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/PANDORAbr/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/theofficialpandora/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/TheOfficialPandora" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                        </ul>
+                                <p>
+                                    Fique por dentro de todas as nossas novidades e ofertas!
+                                </p>
+                    </footer>
+                </div>
+    
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
