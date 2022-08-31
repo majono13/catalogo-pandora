@@ -2,7 +2,7 @@
 
 ![Badge concluido](https://img.shields.io/badge/Status-CONCLUIDO-success)
 
-<p>Este é um projeto pessoal, desenvolvildo com HTML 5, CSS 3, JavaScript e Bootstrap 5. A aplicação é uma página web responsiva.</p>
+<p>Este é um projeto pessoal, desenvolvildo com HTML 5, CSS 3 e Bootstrap 5. A aplicação é uma página web responsiva.</p>
 
 <h3>Funcionalidades</h3>
 
